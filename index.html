@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hobby Recommendations</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Hobby Recommendations</h1>
+
+    <label for="category-select">Choose a hobby category:</label>
+    <select id="category-select" class="dropdown">
+      <option value="general">General</option>
+      <option value="sports_and_outdoors">Sports & Outdoors</option>
+      <option value="education">Education</option>
+      <option value="collection">Collection</option>
+      <option value="competition">Competition</option>
+      <option value="observation">Observation</option>
+    </select>
+
+    <div id="hobby-container" class="card">
+      <p id="hobby">Click the button to get a hobby recommendation!</p>
+      <div id="link-container">
+        <!-- El enlace al hobby aparecerá aquí -->
+      </div>
+    </div>
+
+    <button id="suggest-btn" class="btn" onclick="getHobby()">Suggest a Hobby!</button>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
