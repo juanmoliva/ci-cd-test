@@ -1,4 +1,6 @@
 const API_URL = 'https://api.api-ninjas.com/v1/hobbies?category=general'
+
+// api-ninjas key
 const API_KEY = '6m5f06+C57VCFOCuTYsI+Q==ltfav1xa4MWifHz9';
 
 // Obtener referencias a los elementos del DOM
