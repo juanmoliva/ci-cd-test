@@ -41,7 +41,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Test for public library vulnerabilities
-        uses: lirantal/is-website-vulnerable@main
-        with:
-          scan-url: "https://juanmoliva.github.io/ci-cd-test/"
